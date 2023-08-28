@@ -1,0 +1,52 @@
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: olive;
+}
+.header label,
+.header input {
+  display: block;
+  margin-bottom: 10px; 
+}
+.option {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.blue-text-field {
+    color: blue;
+}
+.product-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .product-table td, .product-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .product-table button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
